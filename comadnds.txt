@@ -1,0 +1,15 @@
+                    !!!! Команды Dokerfile !!!!
+
+1. (docker build --tag python-docker .) # Установка прокта
+2. (docker run --publish  8000:8000 python-docker) # python-docker запуск нашего проекта в докер
+
+                   !!!! Команды docker-compose.yml !!!!
+
+1. (docker-compose build) # помогает постороить компост
+2. (docker-compose up) # помогает запустить
+
+
+(pip freeze >requirements.txt) # создает requirements.txt и качает в файл все библиотеки и их версии 
+    docker images посмотерть images
+    docker rmi -f ( удаляет тут должен быть id images)
+    docker system prune (удаляет все не используемые контейнеры)
